@@ -27,9 +27,25 @@
         .menu{
             color: black;
             font-size: 20px;
-            padding: 5px 10px;
-           
+            padding: 5px 10px; 
         }
+
+        .text-center{
+            text-align: center;
+        }
+        .btn{
+            padding: 5px 20px;
+            margin-left: 200px;
+            font-size: 15px;
+            color: black;
+            background-color: wheat;
+            border: none;
+            border-radius: 10px;
+            
+        }
+
+
+
     </style>
 </head>
 <body>
@@ -47,6 +63,16 @@
         <a href=""><img src="user.png" width="25px"/>account</a>
         <a href="">Find us</a>
         <a href=""><img src="bag.png" width="25px" />bag</a>
+
+        <h1 class="text-center">Text/String opration</h1>
+    <div>
+        <input type="text" class="inputbox " placeholder="Enter the Text" id="input"/><br/>
+        <input type="text" class="inputbox" id="output"/>
+
+        <button class="btn" onclick="makeUpperCase()">upper case</button>
+        <button class="btn" onclick="makeLowerCase()">Lower case</button>
+        <button class="btn" onclick="makeWordCount()">word count</button>
+        <button class="btn" onclick="makeCharCount()">Char count</button>
 </div>
 </div>
 
